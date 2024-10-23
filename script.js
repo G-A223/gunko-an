@@ -9,6 +9,7 @@ ScrollReveal().reveal('.bg-image', { delay: 400, origin: 'top'});
 ScrollReveal().reveal('.about-image', { delay: 500 });
 ScrollReveal().reveal('.text-box', { delay: 550 });
 ScrollReveal().reveal('#map', { delay: 400, origin: 'left'});
+ScrollReveal().reveal('.university', { delay: 400});
 
 let slideIndex = 1;
 showSlides();
