@@ -9,11 +9,10 @@
     font-family: "Poppins", sans-serif;
 }
 :root{
-    --home-bg-color: #A66E38;
-    --bg-color: #FFAD60;
-    --main-color: #FF7F3E;
-    --additional-color: #452300;
-    --text-color: #FFEEAD;
+    --home-bg-color: #4c2d16;
+    --bg-color: #ffead7;
+    --main-color: #ffa513;
+    --text-color: #fdf5e4;
 }
 
 html{
@@ -30,12 +29,12 @@ body{
     left: 0;
     width: 100%;
     padding: 4rem 12% 4rem;
-    background: rgba(41, 21, 1, 0.3);
+    background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 5;
+    z-index: 999;
 }
 .logo{
     font-size: 3rem;
@@ -201,4 +200,60 @@ span{
     85%{
         width: calc(100% + 8px);
     }
+}
+.about{
+    z-index: 111;
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about img{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    padding-left: 3rem;
+}
+.about-image{
+    padding-left: 13rem;
+}
+.about-image img{
+    height: auto; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+    margin-top: 4.5rem;
+}
+.bg-image img{
+    height: auto; 
+    width: auto; 
+    max-width: 650px; 
+    max-height: 500px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    z-index: 222;
+    background: rgb(255, 165, 19, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 4rem;
+    max-width: 70rem;
+    border: 1px solid rgb(255, 165, 19, 0.1);
+    border-radius: 10px;
+    transform: translate(35rem, 30rem);
+}
+.text-box h3{
+    font-size:3rem;
+    margin-bottom: 1rem;
+    color: var(--home-bg-color)
+}
+.text-box p{
+    text-indent: 2rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.3;
+    color: var(--home-bg-color)
 }
