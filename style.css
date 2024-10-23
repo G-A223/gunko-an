@@ -274,7 +274,6 @@ span{
     flex-direction: row;
     padding-left: 12%;
     padding-right: 12%;
-    padding-bottom: 20%;
 }
 .map-image img{
     width: 100%;
@@ -338,8 +337,38 @@ span{
     animation-name: fade;
     animation-duration: 1.5s;
 }
-  
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+.university{
+    margin-left: 10rem;
+    padding: 10%;
+    margin-bottom: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.university img{
+    width:40%;
+    margin-right: 5%;
+}
+.text{
+    margin-left: 3rem;
+    margin-top: 4%;
+    width: 40%;
+}
+.text h3{
+    font-size:3rem;
+    margin-bottom: 4rem;
+    color: var(--home-bg-color)
+}
+.text p{
+    text-indent: 2rem;
+    font-size: 2rem;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 1.8;
+    color: var(--home-bg-color)
 }
