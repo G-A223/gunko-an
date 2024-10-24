@@ -345,7 +345,6 @@ span{
 .university{
     margin-left: 10rem;
     padding: 10%;
-    margin-bottom: 50%;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -372,3 +371,131 @@ span{
     line-height: 1.8;
     color: var(--home-bg-color)
 }
+
+.hobby {
+    position: relative;
+    padding-bottom: 40%;
+    padding-left: 5%;
+}
+.hobby h3{
+    padding-left: 20rem;
+    font-size:3rem;
+    color: var(--home-bg-color);
+}
+.mov{
+    position: absolute;
+    z-index: 222;
+    margin-bottom: 15%;
+    margin-left: 10%;
+    transition: 0.3s ease;
+}
+.mov p{
+    margin-left: 20%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--home-bg-color);
+    display: none;
+    transition: 0.3s ease;
+}
+.move img{
+    position: fixed;
+}
+.mov:hover img{
+    transform: scale(1.1);
+}
+.mov:hover p{
+    display:block;
+}
+
+.book{
+    margin-left: 33%;
+    margin-top: 5%;
+    position: absolute;
+    z-index: 222;
+    transition: 0.3s ease;
+}
+.book p{
+    margin-left: 12%;
+    margin-top: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--home-bg-color);
+    display: none;
+    transition: 0.3s ease;
+}
+.book:hover img{
+    transform: scale(1.1);
+}
+.book:hover p{
+    display:block;
+}
+
+.boot{
+    margin-left: 55%;
+    margin-top: 1%;
+    position: absolute;
+    z-index: 222;
+    transition: 0.3s ease;
+}
+.boot p{
+    margin-left: 20%;
+    margin-top: 3%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--home-bg-color);
+    display: none;
+    transition: 0.3s ease;
+}
+.boot:hover img{
+    transform: scale(1.1);
+}
+.boot:hover p{
+    display:block;
+}
+
+.stit{
+    margin-left: 17%;
+    margin-top: 18%;
+    position: absolute;
+    z-index: 222;
+    transition: 0.3s ease;
+}
+.stit p{
+    margin-left: 12%;
+    margin-bottom: 25%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--home-bg-color);
+    display: none;
+    transition: 0.3s ease;
+}
+.stit:hover img{
+    transform: scale(1.1);
+}
+.stit:hover p{
+    display:block;
+}
+
+.guitar{
+    margin-left: 40%;
+    margin-top: 20%;
+    position: absolute;
+    z-index: 222;
+    transition: 0.3s ease;
+}
+.guitar p{
+    margin-left: 12%;
+    margin-bottom: 25%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--home-bg-color);
+    display: none;
+    transition: 0.3s ease;
+}
+.guitar:hover img{
+    transform: scale(1.1);
+}
+.guitar:hover p{
+    display:block;
+}
+
